@@ -9,8 +9,9 @@ $ tail -f /var/log/service.log | jsonparser --filter @fields.level=ERROR
 ```
 
 ###  Options:
---format    Tels parser to use given file as output template
---filter    Filters input lines by given fields value
+--format    Path to the custom output template
+
+--filter    Filter expression
 
 ###  Default output:
 ```
