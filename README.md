@@ -1,5 +1,6 @@
 ##  jsonparser
-Console utility that parses data from stdin and outputs them to the stdout
+Console utility takes data from stdin and prints them line by line to the stdout with formatted form.
+You can use [jinja2](http://jinja.pocoo.org/docs/dev/) as template engine to customise output.
 
 ###  Usage:
 ```
