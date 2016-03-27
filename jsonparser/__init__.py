@@ -31,11 +31,11 @@ import re
 import argparse
 import docopt
 
-from .parser import Parser
+from .jsonparser import Parser
 
 __author__ = 'ad'
 __date__ = '12/03/16'
-__version__ = '0.1'
+__version__ = '0.0.1'
 
 
 def filter_type(value):

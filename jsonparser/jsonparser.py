@@ -18,8 +18,7 @@ class Parser(object):
         self.options = options
         self.template = None
         self.keys = None
-        self.filter_path = None
-        self.filter_value = None
+        self.filter = None
 
         template_loader = FileSystemLoader(searchpath="/")
         template_env = Environment(loader=template_loader)
