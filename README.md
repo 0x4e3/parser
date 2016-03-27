@@ -12,12 +12,12 @@ $ tail -f /var/log/service.log | jsonparser --filter @fields.level=ERROR
 --format    Tels parser to use given file as output template
 --filter    Filters input lines by given fields value
 
-###  Default output::
+###  Default output:
 ```
 [@timestamp] @fields.level @message
 ```
 
-###  Example::
+###  Example:
 ```
 $ tail -f /var/log/service.log | jsonparser
 [2015-12-15T05:45:39+00:00] INFO Request processed
