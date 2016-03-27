@@ -8,11 +8,6 @@ $ tail -f /var/log/service.log | jsonparser --format template.j2
 $ tail -f /var/log/service.log | jsonparser --filter @fields.level=ERROR
 ```
 
-###  Options:
---format    Path to the custom output template
-
---filter    Filter expression
-
 ###  Default output:
 ```
 [@timestamp] @fields.level @message
